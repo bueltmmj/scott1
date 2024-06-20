@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="--bs-primary: #222c5e;--bs-primary-rgb: 34,44,94;">
 
 <head>
     <meta charset="utf-8">
@@ -22,12 +22,14 @@
 <body class="g-sidenav-show bg-gray-100">
     <div class="bg-primary min-height-300 position-absolute w-100"></div>
     <aside class="bg-white border-0 sidenav navbar navbar-vertical navbar-expand-xs border-radius-xl my-4 fixed-start ms-4" id="sidenav-main">
-        <div class="sidenav-header"><i class="fas fa-times text-secondary d-none d-xl-none p-3 cursor-pointer opacity-5 position-absolute end-0 top-0" aria-hidden="true" id="iconSidenav"></i><a class="navbar-brand m-0" href=" https://demos.creative-tim.com/argon-dashboard-pro/pages/dashboards/default.html " target="_blank"><img src="assets/img/bq-logo2-blue.png" class="navbar-brand-img h-100" alt="main_logo"><span class="ms-1 font-weight-bold"><strong>Company Reports</strong></span></a></div>
+        <div class="sidenav-header"><i class="fas fa-times text-secondary d-none d-xl-none p-3 cursor-pointer opacity-5 position-absolute end-0 top-0" aria-hidden="true" id="iconSidenav"></i><a class="navbar-brand m-0" href=" https://demos.creative-tim.com/argon-dashboard-pro/pages/dashboards/default.html " target="_blank"><img class="navbar-brand-img" src="assets/img/logo2.png" alt="main_logo" width="186" height="29">
+                <div class="text-center"><span class="ms-1 font-weight-bold"><strong>Company Reports</strong></span></div>
+            </a></div>
         <hr class="horizontal dark mt-0">
         <div class="collapse navbar-collapse w-auto h-auto" id="sidenav-collapse-main">
             <ul class="nav">
                 <li class="nav-item"><a class="nav-link active" data-bs-toggle="collapse" href="#dashboardsExamples" aria-controls="dashboardsExamples" role="button" aria-expanded="false" style="margin: 3px;">
-                        <h6 class="my-auto" style="padding-left: 8px;padding-bottom: 5px;">Account</h6><button class="btn btn-outline-primary btn-sm mb-1" type="button" style="width: 100%;padding: 6px;text-align: left;margin: 3px;">Edit Profile</button><button class="btn btn-outline-primary btn-sm mb-1" type="button" style="width: 100%;padding: 6px;text-align: left;margin: 3px;">Reset Password</button><button class="btn btn-outline-primary btn-sm mb-2" type="button" style="width: 100%;padding: 6px;text-align: left;margin: 3px;">Credits</button>
+                        <h6 class="my-auto" style="padding-left: 8px;padding-bottom: 5px;">Account</h6><button class="btn btn-outline-secondary btn-sm mb-1" type="button" style="width: 100%;padding: 6px;text-align: left;margin: 3px;">Edit Profile</button><button class="btn btn-outline-secondary btn-sm mb-1" type="button" style="width: 100%;padding: 6px;text-align: left;margin: 3px;">Reset Password</button><button class="btn btn-outline-secondary btn-sm mb-2" type="button" style="width: 100%;padding: 6px;text-align: left;margin: 3px;">Credits</button>
                     </a></li>
             </ul>
         </div>
@@ -40,7 +42,7 @@
                 <div class="collapse navbar-collapse fs-1 float-start mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar-1" style="text-align: left;">
                     <div class="d-flex align-items-center ms-md-auto pe-md-3">
                         <div class="input-group"></div>
-                    </div><span class="badge rounded-pill bg-light text-capitalize text-primary d-block bg-gradient-dark mb-2" style="font-size: 14px;margin-right: 20px;margin-bottom: 1px !important;">Token Balance<span style="font-weight: normal !important;">&nbsp; &nbsp;Search:</span>&nbsp;<span style="font-weight: normal !important;">200 |</span>&nbsp;<span style="font-weight: normal !important;">Report: 2</span></span>
+                    </div><span class="badge rounded-pill bg-light text-capitalize text-primary d-block bg-gradient-dark mb-2" style="font-size: 14px;margin-right: 20px;margin-bottom: 1px !important;"><strong>Credits</strong><span style="font-weight: normal !important;">: 2</span></span>
                     <ul class="nav justify-content-end">
                         <li class="nav-item d-flex align-items-center"><a class="nav-link text-white font-weight-bold px-0" href="../../pages/authentication/signin/illustration.html" target="_blank"><i class="fas fa-user me-sm-1"></i></a></li>
                         <li class="nav-item d-flex d-xl-none align-items-center ps-3"><a class="nav-link text-white p-0" id="iconNavbarSidenav-1"><div class="sidenav-toggler-inner"><i class="sidenav-toggler-line bg-white"></i><i class="sidenav-toggler-line bg-white"></i><i class="sidenav-toggler-line bg-white"></i></div></a></li>
@@ -60,30 +62,25 @@
                                 <h4 class="my-auto">My Account</h4>
                             </div>
                         </div>
-                        <div class="table-responsive w-60 p-3" style="margin-left: 35px;margin-bottom: 30px;">
-                            <table class="table align-items-center mb-0">
-                                <thead>
-                                    <tr></tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td><strong>&nbsp; Report Credits</strong></td>
-                                        <td>Balance:&nbsp; 3</td>
-                                        <td class="text-start align-middle"><button class="btn btn-outline-primary mb-0" type="button" style="padding: 4px;padding-top: 6px;padding-bottom: 6px;margin-right: 3px;"><strong>Add 1 ($50USD)</strong></button></td>
-                                        <td class="text-start align-middle"><button class="btn btn-outline-primary mb-0" type="button" style="padding: 4px;padding-top: 6px;padding-bottom: 6px;margin-right: 3px;"><strong>Add 3 ($120USD)</strong></button></td>
-                                        <td class="text-start align-middle"><button class="btn btn-outline-primary mb-0" type="button" style="padding: 4px;padding-top: 6px;padding-bottom: 6px;margin-right: 3px;"><strong>Add 10 ($350USD)</strong></button></td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>&nbsp; Search Credits</strong></td>
-                                        <td>Balance:&nbsp; 200</td>
-                                        <td class="text-start align-middle"><button class="btn btn-outline-primary mb-0" type="button" style="padding: 4px;padding-top: 6px;padding-bottom: 6px;margin-right: 3px;">Add 500 ($20USD)</button></td>
-                                        <td class="text-start align-middle"><button class="btn btn-outline-primary mb-0" type="button" style="padding: 4px;padding-top: 6px;padding-bottom: 6px;margin-right: 3px;">Add 1000 ($30USD)</button></td>
-                                        <td class="text-start align-middle"><button class="btn btn-outline-primary mb-0" type="button" style="padding: 4px;padding-top: 6px;padding-bottom: 6px;margin-right: 3px;">Add 5000 ($100USD)</button></td>
-                                    </tr>
-                                    <tr style="margin-top: 100px;"></tr>
-                                    <tr></tr>
-                                </tbody>
-                            </table>
+                        <div class="card-body text-center" style="text-align: center;">
+                            <div class="text-center">
+                                <div class="table-responsive text-center" style="width: 1000px;text-align: center;">
+                                    <table class="table align-items-center mb-0">
+                                        <thead>
+                                            <tr></tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td style="width: 300px;"><strong>&nbsp; Report Credits:</strong>&nbsp;3</td>
+                                                <td class="text-start align-middle"><button class="btn btn-outline-secondary mb-0" type="button" style="padding: 4px;padding-top: 6px;padding-bottom: 6px;margin-right: 3px;"><strong>Add one credit: $59</strong></button></td>
+                                            </tr>
+                                            <tr></tr>
+                                            <tr style="margin-top: 100px;"></tr>
+                                            <tr></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -93,48 +90,56 @@
                     <div class="card">
                         <div class="card-header d-flex p-3">
                             <div>
-                                <h4 class="my-auto">My Account</h4>
+                                <h4 class="my-auto">Packages</h4>
                             </div>
                         </div>
                         <div class="tab-content tab-space p-3">
                             <div class="tab-pane active" id="monthly">
                                 <div class="row text-center">
-                                    <div class="col-3 col-lg-3 text-center mb-lg-0 mb-4"></div>
+                                    <div class="col-1 text-center mb-lg-0 mb-4"></div>
                                     <div class="col-3 text-center mb-lg-2 mb-4">
                                         <div class="card">
                                             <div class="card-header text-center pt-4 pb-3"><span class="text-uppercase text-dark font-weight-bold">Analyst</span>
-                                                <h1 class="font-weight-bold mt-2"><small>$</small>159</h1>
+                                                <h1 class="font-weight-bold mt-2"><small>$</small>249</h1>
                                             </div>
                                             <div class="card-body text-center text-lg-start pt-0">
                                                 <div class="d-flex justify-content-center justify-content-lg-start p-2">
-                                                    <div class="text-center shadow icon icon-shape icon-xs rounded-circle bg-gradient-success"><i class="fas fa-check opacity-10"></i></div>
+                                                    <div class="text-center text-primary shadow icon icon-shape icon-xs rounded-circle bg-gradient-success"><i class="fas fa-check opacity-10"></i></div>
                                                     <div><span class="ps-3">5 Reports</span></div>
                                                 </div>
-                                                <div class="d-flex justify-content-center justify-content-lg-start p-2">
-                                                    <div class="text-center shadow icon icon-shape icon-xs rounded-circle bg-gradient-success"><i class="fas fa-check opacity-10"></i></div>
-                                                    <div><span class="ps-3">1,500 Search Results</span></div>
-                                                </div><a class="btn btn-primary d-lg-block btn-icon mt-3 mb-0" role="button">Join<i class="fas fa-arrow-right ms-1"></i></a>
+                                                <div class="d-flex justify-content-center justify-content-lg-start p-2"></div><a class="btn btn-secondary d-lg-block btn-icon mt-3 mb-0" role="button">Add<i class="fas fa-arrow-right ms-1"></i></a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-3 text-center mb-lg-2 mb-4">
                                         <div class="card">
                                             <div class="card-header text-center pt-4 pb-3"><span class="text-uppercase text-dark font-weight-bold">Pro</span>
-                                                <h1 class="font-weight-bold mt-2"><small>$</small>499</h1>
+                                                <h1 class="font-weight-bold mt-2"><small>$</small>399</h1>
                                             </div>
                                             <div class="card-body text-center text-lg-start pt-0">
                                                 <div class="d-flex justify-content-center justify-content-lg-start p-2">
-                                                    <div class="text-center shadow icon icon-shape icon-xs rounded-circle bg-gradient-success"><i class="fas fa-check opacity-10"></i></div>
+                                                    <div class="text-center text-primary shadow icon icon-shape icon-xs rounded-circle bg-gradient-success"><i class="fas fa-check opacity-10"></i></div>
                                                     <div><span class="ps-3">10 Reports</span></div>
                                                 </div>
-                                                <div class="d-flex justify-content-center justify-content-lg-start p-2">
-                                                    <div class="text-center shadow icon icon-shape icon-xs rounded-circle bg-gradient-success"><i class="fas fa-check opacity-10"></i></div>
-                                                    <div><span class="ps-3">5,000 Search Results</span></div>
-                                                </div><a class="btn btn-primary d-lg-block btn-icon mt-3 mb-0" role="button">Join<i class="fas fa-arrow-right ms-1"></i></a>
+                                                <div class="d-flex justify-content-center justify-content-lg-start p-2"></div><a class="btn btn-secondary d-lg-block btn-icon mt-3 mb-0" role="button">Add<i class="fas fa-arrow-right ms-1"></i></a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-3 col-lg-3 mb-lg-0 mb-4"></div>
+                                    <div class="col-3 text-center mb-lg-2 mb-4">
+                                        <div class="card">
+                                            <div class="card-header text-center pt-4 pb-3"><span class="text-uppercase text-dark font-weight-bold">Pro</span>
+                                                <h1 class="font-weight-bold mt-2"><small>$</small>749</h1>
+                                            </div>
+                                            <div class="card-body text-center text-lg-start pt-0">
+                                                <div class="d-flex justify-content-center justify-content-lg-start p-2">
+                                                    <div class="text-center text-primary shadow icon icon-shape icon-xs rounded-circle bg-gradient-success"><i class="fas fa-check opacity-10"></i></div>
+                                                    <div><span class="ps-3">25 Reports</span></div>
+                                                </div>
+                                                <div class="d-flex justify-content-center justify-content-lg-start p-2"></div><a class="btn btn-secondary d-lg-block btn-icon mt-3 mb-0" role="button">Add<i class="fas fa-arrow-right ms-1"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-1 mb-lg-0 mb-4"></div>
                                 </div>
                             </div>
                             <div class="tab-pane" id="annual">
